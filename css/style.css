@@ -1,0 +1,13 @@
+body
+{
+	margin:0;
+}	
+
+#sidebar
+{
+	width:240px;
+	height:100%;
+	position:fixed;
+	background-color:#EEEEEE;
+	float:left;
+}	
