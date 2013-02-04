@@ -1,13 +1,63 @@
-body
+#container
 {
-	margin:0;
-}	
-
+	width:760px;
+	height:auto;
+	margin-left:300px;
+	position:relative;
+	float:left;
+	padding:10px;
+}
 #sidebar
 {
-	width:240px;
+	width:216px;
 	height:100%;
 	position:fixed;
-	background-color:#EEEEEE;
+	background-color:#009EE0;
 	float:left;
+	border-right:3px solid #333333;
+	-webkit-border-top-right-radius: 35px;
+	-moz-border-top-right-radius: 35px;
+	border-top-right-radius: 35px;
 }	
+
+#content
+{
+	width:90%;
+	height:200px;
+	background-color:#EEEEE;
+	margin:auto;
+	position:relative;
+}
+
+#menu
+{
+	width:100%;
+	height:100%;
+
+}
+
+#menu ul li
+{
+	background-color:#333333;
+	line-height:35px;
+	margin:20px 0px 0px 20px;	
+	padding: 5px 20px;
+}
+
+#menu ul a li:hover
+{
+	color:white;
+	background-color:#636363;
+	cursor:pointer;
+}
+
+#menu img
+{
+	float:right;
+	margin:0px 10px;
+}
+
+.contactimage
+{
+	position:absolute; padding-left:250px; 
+}
